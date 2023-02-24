@@ -1,0 +1,175 @@
+
+.cont{
+    background: rgb(120, 126, 93);
+    width: 100%;
+    height: 40px;
+    
+}
+.cont h5{
+    padding-top: 5px;
+}
+.cont a{
+    text-decoration: none;
+    color: white;
+    font-size:13px; 
+}
+.icon{
+    padding-right: 30px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+.btnn{
+    border: 4px solid rgb(247, 247, 247);
+    border-radius: 30px;
+    background-color: green;
+    color: white;
+}
+/* .navbar{
+    display: flex; 
+    justify-content: center; 
+  
+} */
+.inp{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    text-align: center;
+}
+.logo-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f8f9fa;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    justify-content: space-between;
+}
+.navbar-nav{
+    margin-left: 318px;
+}
+.best-sell{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+.card-pt-1{
+    display: flex;
+    flex-direction: row;
+}
+.card-body{
+    text-align: center;
+}
+.container_me{
+    max-width: 100%;
+    
+
+}
+.card-pt-1{
+    /* width: 100%; */
+      display: flex;
+      justify-content: center;
+      /* overflow-x: auto; */
+      margin-left: 15px;
+      
+}
+.card{
+    margin:10px 13px;
+    min-width:15rem ;
+}
+.outer{
+    position: relative;
+    
+}
+
+.iner{
+    
+   width: 96%;
+    position: absolute;
+    top: 0;
+    left:0;
+    display: none;
+}
+.outer:hover .iner{
+    display: block;
+}
+.row{
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.weadding {
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+}
+
+
+.w-img {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.w-img img{
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s ;
+    
+}
+
+.w-img img:hover{
+   top: -10px;
+}
+
+.c-img {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.c-img img{
+    margin: 3px;
+    border-radius: 10px;
+    min-width: 10px !important;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease-in-out 0s ;
+    
+}
+.c-img .row {
+    padding-top: 10px;
+}
+
+.c-img img:hover{
+   top: -10px;
+}
+/* footer  */
+.notice{
+    display: flex;
+    justify-content: center;
+}
+
+.notice_1  p {
+    border-bottom: 1px solid rgb(145, 145, 145);
+}
+.f_1{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
